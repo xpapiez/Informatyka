@@ -1,0 +1,59 @@
+.tytul{
+    font-family: 'Caveat Brush', cursive;
+    text-align:center ;
+    color:white;
+    margin-left: 10vw;
+}
+.artykul1   {
+    font-family: 'Caveat Brush', cursive;
+    margin-left: 20vw;
+    margin-right: 10vw;
+    margin-top: 40px;
+    text-align: center;
+    color:white;
+}
+.artykul2 {
+    font-family: 'Caveat Brush', cursive;
+    margin-left: 20vw;
+    margin-right: 10vw;
+    margin-top: 50px;
+    
+    color:white;
+    
+}
+ul {
+    list-style: none;
+}
+
+.tlo {
+    background: url("https://i.pinimg.com/originals/9e/5b/e5/9e5be5aaec8d02052f82a194d821e227.jpg");
+    background-size : cover;
+    display: flex;
+    margin : 0;
+    padding: 0;
+}
+.navbar {
+    width : 10vw;
+    height: 100vh;
+    position: fixed;
+    background: url("data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBg8IBwgKCgkFDQ8FBQUFBQ8ICQUKFBUWFhQRExMYHCggGBolGxMTITEhJSkrLi4uFx8zODMsNygtLisBCgoKBQULFgUFDisZExkrLSsrKysrKysrKysrLTcrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrK//AABEIAJYBUQMBIgACEQEDEQH/xAAXAAEBAQEAAAAAAAAAAAAAAAAAAQUG/8QAFhABAQEAAAAAAAAAAAAAAAAAAAFB/8QAFwEBAQEBAAAAAAAAAAAAAAAAAgEGBP/EABURAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIRAxEAPwDvaFHYETAwGkgCFEAGlEASlEAE4gAlEAQogAnEAGlEAQolCglEAEolCiHEAQogAkgAnEAEoIqIUEVBKJQoJwARWpQo0TIxMDAaSAIUQAaUQBKUQATiACUQBCiACcQAaUQBCiUKCUQASiUKIcQBCiACSACcQASgiohQRUEolCgnABFalCjRMjEwMBpIAhRABpRAEpRABOIAJRAEKIAJxABpRAEKJQoJRABKJQohxAEKIAJIAJxABKCKiFBFQSiUKCcAEVqUKNEyMTAwGkgCFEAGlEASlEAE4gAlEAQogAnEAGlEAQolCglEAEolCiHEAQogAkgAnEAEoIqIUEVBKJQoJwARWpQo0TIxMDAaSAIUQAaUQBKUQATiACUQBCiACcQAaUQBCiUKCUQASiUKIcQBCiACSACcQASgiohQRUEolCgnABFalCjRMjEwMBpIAhRABpRAEpRABOIAJRAEKIAJxABpRAEKJQoJRABKJQohxAEKIAJIAJxABKCKiFBFQSiUKCcAEVqUKNEyMTAwGkgCFEAGlEASlEAE4gAlEAQogAnEAGlEAQolCglEAEolCiHEAQogAkgAnEAEoIqIUEVBKJQoJwARWpQo0TIxMDAaSAIUQAaUQBKUQATiACUQBCiACcQAaUQBCiUKCUQASiUKIcQBCiACSACcQASgiohQRUEolCgnABFalCjRMjEwMBpIAhRABpRAEpRABOIAJRAEKIAJxABpRAEKJQoJRABKJQohxAEKIAJIAJxABKCKiFBFQSiUKCcAEVqUQaJkYYANJAEKIANKIAlKIAJxABKIAhRBATgANKIAhRKAJRABKJQEOIAhRABJBATgAJQQEKCAJRKAJwARX//Z") ;
+    display: grid;
+    grid-template-rows: repeat(6,1fr);
+}
+a {
+    width : 10vw;
+    height : 10vh;
+    border : solid red 2px;
+    box-sizing: border-box;
+    color : red;
+    font-family : 'Caveat Brush',cursive;
+    text-decoration: none;
+    text-align: center;
+    font-size: larger;
+    transition: 1s;
+    border:none;
+}
+a:hover {
+    color : white;
+    background-color: red;
+}
